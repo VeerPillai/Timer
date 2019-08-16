@@ -7,7 +7,7 @@ import math
 class App():
     def __init__(self):
         self.root = tk.Tk()
-        self.done_time=datetime.datetime.now() + datetime.timedelta(seconds=1200) # half hour
+        self.done_time=datetime.datetime.now() + datetime.timedelta(seconds=1200) # 20 minutes
         self.label = tk.Label(text="")
         self.label.pack()
         self.update_clk()
